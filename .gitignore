@@ -1,8 +1,13 @@
-node_modules/
-venv/
-venv312/
-__pycache__/
+.env
+*.env
+
+NASA C-MAPSS Dataset/
+CWRU DATASET/
+
 .ipynb_checkpoints/
-*.pyc
-*.pyo
-*.log
+__pycache__/
+
+api_backend/venv312/
+
+frontend/node_modules/
+node_modules/
