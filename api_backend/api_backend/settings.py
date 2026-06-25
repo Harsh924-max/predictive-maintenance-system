@@ -15,7 +15,7 @@ CWRU_MODELS_DIR = BASE_DIR.parent / 'cwru_models'
 SECRET_KEY = 'django-insecure-5!%9q7l87f*+09sb@q)k1-(y72m7*1j7sawwl3%ora3r5tb#)r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True   # Set to False in production
+DEBUG = False   # Set to False in production
 
 ALLOWED_HOSTS = ['*']   # For development; restrict in production
 
