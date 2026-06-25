@@ -15,14 +15,16 @@ function CWRU() {
     setError('');
   };
 
- const loadDemoSample = () => {
+  const loadDemoSample = () => {
   const demoData = [
     0.52, 1.23, 3.45, 2.11, 0.89,
     1.67, 2.34, 1.56, 0.98, 1.22
   ];
 
-  setFileData(demoData);   // ✅ USE IT HERE
-};
+  console.log("Demo data loaded:", demoData);
+
+  setFile(null);
+  setError('');
 
   setResult({
     prediction_label: "Inner Race Fault",
